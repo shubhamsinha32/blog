@@ -1,0 +1,490 @@
+/*!
+ * Start Bootstrap - Modern Business (https://startbootstrap.com/template-overviews/modern-business)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
+ */
+/* @import url('https://fonts.googleapis.com/css?family=Cantata+One');
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,500,600,700,900'); */
+@import url('css/cantata-one.css');
+@import url('css/raleway.css');
+
+body {
+  padding-top: 0px !important;
+  	font-family: 'Raleway', sans-serif;
+
+  
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+
+.home-banner h3 {
+    color: #180d5b;
+    
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 39px;
+}
+.carousel-caption h3 {
+     font-size: 50px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.96;
+    letter-spacing: 1.5px;
+        text-align: left;
+    color: #ffffff;
+	 text-transform: uppercase;
+	 font-family: Raleway;
+
+
+}
+.carousel-caption p {
+   font-family: Raleway;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.8;
+  letter-spacing: 0.6px;
+     text-align: left;
+  color: #ffffff;
+  margin-top:30px;
+}
+
+.nav-link {
+     font-size: 12px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 1.3px;
+    text-align: right;
+        color: rgba(255,255,255,.9) !important;
+}
+.nav-link:hover{
+ 
+        color: rgba(255,255,255,.7) !important;
+}
+ 
+.carousel-caption button{
+	    border-radius: 17.8px;
+    background-color: #ebd611;
+    border: 0;
+    padding: 8px 15px;
+    background-color: #7c51ff;
+    color: #fff;
+    font-size: 14px;
+} 
+.carousel-item {
+	
+  height: 65vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+.bg-dark {
+    background-color: transparent !important;
+}
+ 
+.carousel-item {
+    height: 100vh;
+    top: 0px;
+}
+/* .carousel-inner { */
+ /* padding-top: 120px; */
+/* } */
+.carousel-caption {
+       position: relative;
+    right: 0;
+    top: auto;
+    left: 0;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+        text-align: left;
+}
+.mb-4, .my-4 {
+       text-align: center; 
+}
+h1{
+ 
+	  font-family: 'Cantata One', serif;
+  font-size: 38px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 1.4px;
+    color: #180d5b;
+   text-transform:uppercase;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.82;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color: #393939;
+}
+.card { 
+    border: 0;
+ }
+ .card-footer {
+    padding: .75rem 1.25rem;
+    background-color: transparent;
+    border-top: 0;
+ 
+}
+.card-footer p{
+   
+       font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color: #393939;
+}
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1rem 1.25rem 0;
+}
+.container-fluid img{
+	width:100%;
+}
+.container-fluid{
+	padding-left:0;
+	padding-right:0;
+}
+.quote-section .over-txt{
+	    position: absolute;
+ top: 15%;
+    width: 75%;
+    margin: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: #fff;
+    line-height: 1.5;
+    font-weight: 400;
+}
+button{
+     border-radius: 17.8px;
+    background-color: #7c51ff;
+    border: 0;
+    color: #fff;
+    padding: 7px 15px;
+	margin-top:20px;
+ 
+}
+.over-txt h1,.over-txt p{
+	color:#fff;
+}
+.quote-section{
+	position:relative;
+}
+.news img,.about-us img{
+	width:20%;
+	 /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+}
+.news-card{
+	    border: 0;
+    position: relative;
+    margin-bottom: 80px;
+}
+.news .card-footer {
+    padding: 1rem 1.25rem;
+    background-color: transparent;
+    border-top: 0;
+    box-shadow: 0 1px 3.5px 0 rgba(0, 0, 0, 0.05);
+    background-color: #ffffff;
+     width: 80%;
+    margin: auto;
+    position: absolute;
+    bottom: 15px;
+    left: 0;
+    right: 0;
+}
+.news p {
+    font-size: 12px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.82;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color: #393939;
+	    margin-bottom: 0;
+}
+.news h4{
+	    font-size: 18px;
+
+}
+
+.form-control {
+ border:0px;
+    border-bottom: 1px solid #9e9c9c;
+    border-radius: 0;
+	    background: transparent;
+        color: #fff !important;
+}
+input{
+	
+	margin-bottom:20px;
+}
+footer.bg-dark{
+	    background-color: #0c084e !important;
+    padding: 15px !important;
+    margin-top: 60px;
+}
+.fixed-top {
+       position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+li.nav-item {
+    font-size: 12px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 1.3px;
+    /* text-align: right; */
+    color: rgba(255,255,255,.9) !important;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    display: block;
+    padding: .5rem 1rem;
+}
+.nav-link {
+    display: block;
+    padding: 0;
+}
+/* .about-us { */
+  /* background-image: url(../img/aboutusbg.png), url(../img/aboutusbg2.png); */
+  /* background-position: right, left; */
+    /* background-repeat: no-repeat, no-repeat; */
+/* } */
+/* .news-section{ */
+	  /* background-image: url(../img/bird.png), url(../img/newsbg.png); */
+      /* background-position: left top, right top; */
+    /* background-repeat: no-repeat, no-repeat; */
+/* } */
+ 
+.card {
+    background-color: transparent;
+}
+.card-body {
+     width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	
+}
+.services .card-body {
+     width: 100%;
+    box-shadow:none;
+	
+}
+@media only screen and (max-width: 768px){
+	.carousel-item {
+     height: 100%;
+	 min-height: 215px;
+
+ }
+ section {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.left{
+	text-align:center !important;
+}
+.right{
+	text-align:center !important;
+}
+.form-sec .right{
+	text-align:center !important;
+}
+
+element.style {
+    text-align: left;
+}
+ 
+.nav-link,.nav-item {
+ 
+    text-align: center !important;
+}
+ .navbar-collapse{
+	     background: #0c084e;
+ }
+ .col-6,.col-4,.col-8 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.left {
+    text-align: center !important;
+}
+.mission, .mission h1, .mission p {
+    text-align: center !important;
+}
+ 
+.quote-section .over-txt {
+     top: 0%;
+    width: 75%;
+
+}
+.over-txt.quote-content {
+    width: 100% !important;
+    top: 15px !important;
+    padding: 0 15px;
+}
+.quote-section img {
+    width: 100%;
+    height: -webkit-fill-available;
+}
+ nav img{
+ 
+     width: 45%;
+  
+ }
+ .quote-section h3 {
+     top: 23%;
+    width: 100%;
+    margin: auto;
+    left: 0;
+    right: 0;
+     color: #fff;
+    line-height: 1.5;
+    font-weight: 400;
+    font-size: 14px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+}
+.banner-img img{
+	width:100%;
+		margin-top:22%;
+
+}
+.banner-txt{
+	margin-top:22%;
+}
+.services h4{
+	font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.82;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color: #393939;
+	font-family: 'Cantata One', serif;
+}
+.services .card {
+ 
+ 
+  box-shadow: 0px 0px 0px grey;
+  -webkit-transition:  box-shadow .6s ease-out;
+     box-shadow: none;
+
+}
+.services .card:hover{ 
+     box-shadow: 1px 8px 20px grey;
+    -webkit-transition:  box-shadow .6s ease-in;
+	border-radius: 15px;
+  }
+ .mission img{
+	 width:100%;
+ }
+  .mission,.mission h1,.mission p{
+	  text-align:right;
+  }
+section{
+	margin-top:100px;
+	margin-bottom:100px;
+}
+.over-txt.quote-content{
+	    width: 58%;
+    top: 26%;
+}
+.over-txt.quote-content p{
+	    font-size: 25px;
+    font-weight: 500;
+}
+.left{
+	text-align:left;
+}
+.right{
+	text-align:right ;
+}
+.form-sec .right{
+		text-align:right ;
+}
+.over-txt.quote-content.contact-sec {
+    width: 100%;
+    top: 15%;
+}
+.contact-sec h1{
+	margin-bottom:50px !important;
+}
+.form-control:focus {
+        color: #fff;
+    background-color: transparent;
+    outline: 0;
+    box-shadow: none;
+	    border-color: #ddd;
+}
+ 
+.form-control::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+	        color: #fff;
+}
+.form-control::-moz-placeholder { /* Firefox 19+ */
+  	        color: #fff;
+
+}
+.form-control:-ms-input-placeholder { /* IE 10+ */
+  	        color: #fff;
+
+}
+.form-control:-moz-placeholder { /* Firefox 18- */
+  	        color: #fff;
+
+}
+.news-section img{
+	width:100%;
+	    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.news-section .card-body{
+	padding: 0;
+    background: transparent;
+    box-shadow: none;
+}
+.news{
+	    margin-top: 40px;
+}
+.news-section{
+	text-align:center;
+}
+ .mission .left, .mission .left {
+    text-align: left;
+}
